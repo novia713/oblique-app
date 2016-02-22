@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "org.leandro.adv"
+        versionCode = "02"
+        version     = "0.32" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Oblique</name>
+
+    <description>
+        Mi versión para consultar Oblique Strategies
+    </description>
+
+    <author href="https://leandro.org" email="leandro@leandro.org">
+        leandro713
+    </author>
+
+    <!--
+      If you do not want any permissions to be added to your app, add the
+      following tag to your config.xml; you will still have the INTERNET
+      permission on your app, which PhoneGap requires.
+    -->
+    <preference name="permissions" value="none"/>
+
+    <!-- to enable individual permissions use the following examples -->
+    <feature name="http://api.phonegap.com/1.0/network"/>
+
+    <!-- el puto icono :( -->
+    <icon src="images/adv-60.png" />
+     <platform name="android">
+              <icon src="images/ob-60.png" density="hdpi" />
+              <icon src="images/ob-128.png" density="xhdpi" />
+     </platform>
+</widget>

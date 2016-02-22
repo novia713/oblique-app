@@ -1,0 +1,16 @@
+{
+    "name": "Oblique App",
+   "version": "0.1",
+   "description": "Mi versión de Oblique Strategies",
+   "launch_path": "/index.html",
+   "permissions": {
+ },
+   "developer": {
+     "name": "leandro713",
+     "url": "http://leandro.vc"
+   },
+ "icons": {
+     "60": "/images/ob-60.png",
+     "128": "/images/ob-128.png"
+ }
+}
